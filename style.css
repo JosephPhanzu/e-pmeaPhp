@@ -1,0 +1,118 @@
+*{
+    margin: 0; padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.logo-block{
+    display: flex;
+    justify-content: left;
+}
+#logo{
+    width: 200px;
+}
+#logoKin{
+    width: 150px;
+}
+#logoH{
+    width: 300px;
+}
+#logo2{
+    width: 300px;
+}
+.chapeau-text1{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#login-student, #add-student,#recense{
+    background-color: #3982a6;
+}
+#login-personnel, #add-personnel,#artisanale{
+    background-color: #264d14;
+}
+#forum-btn,#commerce{
+    background-color: #161648;
+}
+#bibliotheque{
+    background-color: #dd6e13;
+}
+#ajoutAgentsF{
+    background-color: #e2240a;
+}
+#liste-etudiant{
+    background-image: linear-gradient(10deg, #ffff8f 0, #ffff6e 16.67%, #ffe948 33.33%, #f8d110 50%, #f0b900 66.67%, #e9a100 83.33%, #e48900 100%);
+}
+#liste-personnel{
+    background-image: linear-gradient(50deg, #080452 0%, #0b0b5f 35%, #0a2377 100%);
+}
+#enseignement{
+    background-image: linear-gradient(50deg, #080452 0%, #0b0b5f 35%, #0b1e5e 100%);
+}
+
+#horaire-ue{
+    background: #011F5B;
+}
+#horaire-examen{
+    background: rgb(3,133,116);
+    background: linear-gradient(346deg, rgba(3,133,116,1) 29%, rgba(2,124,110,1) 41%, rgba(2,118,119,1) 52%);
+}
+
+#login-student:hover, #login-personnel:hover, #ajoutAgentsF:hover, #add-student:hover, #add-personnel:hover,
+#forum-btn:hover, #bibliotheque:hover, #liste-etudiant:hover, #liste-personnel:hover, #enseignement:hover, #horaire-ue:hover, #horaire-examen:hover{
+    box-shadow: #7d84e4 4px 5px 7px;
+    cursor: pointer;
+}
+#login-student i, #login-personnel i, #ajoutAgentsF i, #add-student i, #add-personnel i, #forum-btn i, #bibliotheque i, #liste-etudiant i, #liste-personnel i, #enseignement i, #horaire-ue i, #horaire-examen i{
+    font-size: 70px;
+}
+
+.table{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (min-width:820px) {
+    .footer{
+        margin-top: 12%;
+    }
+}
+@media screen and (max-width:680px) {
+    #logoH{
+        width: 200px;
+    }
+    #logo{
+        width: 180px;
+    }
+    #logoKin{
+        width: 120px;
+    }
+    #logo2{
+        width: 200px;
+    }
+    #deconnect{
+        width: 10px;
+    }
+    .chapeau-text{
+        font-size: .72em;
+    }
+    .chapeau-text1{
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: bold;
+    }
+    .group-btn{
+        font-size: .7em;
+    }
+    .nomTableau{
+        width: 200px;
+    }
+}
+@media screen and (max-width:800px) {
+    .footer{
+        margin-top: 14%;
+    }
+}
